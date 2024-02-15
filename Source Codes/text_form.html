@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testtt</title>
+    <link rel="stylesheet" href="text_form_style.css">
+</head>
+
+<body>
+
+
+    <div class="form_container">
+        <div class="reservation_card_content">
+            <form action="#">
+                <div class="form_row">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="number" placeholder="Phone Number" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form_row">
+                    <input type="number" placeholder="Guests" min="1" max="12" required>
+                    <input id="date" type="date" value="date" required>
+                    <select id="time" name="hours">
+                        <option value="Select_hour_label">Time</option>
+                        <optgroup class="brunch_opiton_label" label="Brunch and Lunch">
+                            <option value="first_slot">9:00</option>
+                            <option value="first_slot">9:15</option>
+                            <option value="first_slot">9:30</option>
+                            <option value="first_slot">9:45</option>
+                            <option value="first_slot">10:00</option>
+                            <option value="first_slot">10:15</option>
+                            <option value="time_slot">10:30</option>
+                            <option value="time_slot">10:45</option>
+                            <option value="time_slot">11:00</option>
+                            <option value="time_slot">11:15</option>
+                            <option value="time_slot">11:30</option>
+                            <option value="time_slot">11:45</option>
+                            <option value="first_slot">12:00</option>
+                            <option value="first_slot">12:15</option>
+                            <option value="first_slot">12:30</option>
+                            <option value="first_slot">12:45</option>
+                            <option value="first_slot">13:00</option>
+                            <option value="first_slot">13:15</option>
+                            <option value="first_slot">13:30</option>
+                            <option value="first_slot">13:45</option>
+                            <option value="first_slot">14:00</option>
+                            <option value="first_slot">14:15</option>
+                            <option value="first_slot">14:30</option>
+                            <option value="first_slot">14:45</option>
+                            <option value="first_slot">15:00</option>
+                            <option value="first_slot">15:15</option>
+                            <option value="first_slot">15:30</option>
+                            <option value="first_slot">15:45</option>
+                            <option value="first_slot">16:00</option>
+                            <option value="first_slot">16:15</option>
+                            <option value="first_slot">16:30</option>
+                            <option value="first_slot">16:45</option>
+                            <option value="first_slot">17:00</option>
+                        </optgroup>
+                        <optgroup label="Dinner">
+                            <option value="first_slot">17:15</option>
+                            <option value="first_slot">17:30</option>
+                            <option value="first_slot">17:45</option>
+                            <option value="first_slot">18:00</option>
+                            <option value="first_slot">18:15</option>
+                            <option value="first_slot">18:30</option>
+                            <option value="first_slot">18:45</option>
+                            <option value="first_slot">19:00</option>
+                            <option value="first_slot">19:15</option>
+                            <option value="first_slot">19:30</option>
+                            <option value="first_slot">19:45</option>
+                            <option value="first_slot">20:00</option>
+                            <option value="first_slot">20:15</option>
+                            <option value="first_slot">20:30</option>
+                            <option value="first_slot">20:45</option>
+                            <option value="first_slot">21:00</option>
+                            <option value="first_slot">21:15</option>
+                        </optgroup>
+
+                    </select>
+                </div>
+                <div class="form_row bottom_form_row">
+                    <textarea id="textarea" name="any_messages" id="messages" placeholder="Any messages..."></textarea>
+                    <button type="submit">Book Table</button>
+                </div>
+            </form>
+        </div>
+        <img id='reservation_hero_form_img' src="Content/Images/0eafc1d8-04ec-447f-8dd5-c91adb87c428.jpg" alt="">
+    </div>
+
+</body>
+
+</html>
