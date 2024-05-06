@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gallery {
+  @apply flex items-center flex-col h-full w-full mb-[50px];
+}
+.gallery_grid_container {
+  @apply w-full h-[950px] flex items-center justify-center m-2.5;
+}
+.gallery_grid_element {
+  @apply grid grid-cols-[repeat(4,300px)] grid-rows-[repeat(3,315px)] h-[965px] w-[1235px] gap-2.5 -mb-2.5;
+}
+
+/*GALLERY CONTENT*/
+.hero_gallery_img_container img {
+  @apply object-cover w-full h-full;
+}
+.grid_element_1,
+.grid_element_3,
+.grid_element_4,
+.grid_element_5 {
+  @apply w-[300px] h-[315px];
+}
+.grid_element_2 {
+  @apply row-[1_/_span_2] col-[2] h-[640px] w-[300px];
+}
+.grid_element_6 {
+  @apply col-[3_/_span_2] w-[610px] h-[315px];
+}
+.grid_element_7 {
+  @apply col-[1_/_span_2] w-[750px] h-[315px];
+}
+.grid_element_8 {
+  @apply col-[3/_span_1] w-[466px] h-[315px] ml-[140px];
+}

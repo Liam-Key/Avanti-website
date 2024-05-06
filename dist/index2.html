@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="w-[390px] md:w-full">
+    <div class="flex items-center justify-center bg-blue-100 flex-col">
+      <form action="#" class="" class="max-w-[fit] mx-auto h-fit">
+        <input
+          type="text"
+          placeholder="Name..."
+          required
+          class="w-[200px] h-[40px] mr-1 mb-2"
+        /><input
+          type="email"
+          placeholder="Email..."
+          required
+          class="w-[200px] h-[40px] mr-1 mb-2"
+        /><input
+          type="tel"
+          placeholder="Number..."
+          required
+          class="w-[200px] h-[40px] mb-2"
+        />
+        <br />
+        <input
+          type="datetime-local"
+          placeholder="Date and Time"
+          required
+          name="date"
+          value="2020-11-16T20:00"
+          class="w-[300px] h-[40px] mr-2 mb-2"
+        /><input
+          type="number"
+          placeholder="Guests..."
+          name="guests"
+          id="guests"
+          class="w-[300px] h-[40px] mb-2"
+        />
+        <textarea
+          name="messages"
+          id="any_messages"
+          placeholder="Any messages..."
+          class="w-[608px] h-[100px]"
+        >
+        </textarea>
+      </form>
+      <button
+        id="reserve_table"
+        type="submit"
+        class="bg-red-200 text-white py-2 px-4 rounded"
+      >
+        Reserve your table
+      </button>
+    </div>
+
+    <div
+      id="form_card"
+      class="max-w-[650px] min-w-[600px] max-h-[355px] min-h-[300px] border-avanti-gold border rounded flex items-center justify-center"
+    >
+      <form action="#" class="p-4">
+        <input
+          type="text"
+          placeholder="Name..."
+          required
+          class="w-[200px] h-[40px] mb-2 border-b-avanti-gold border-b placeholder-avanti-gold placeholder-opacity-40 pr-2 bg-slate-50"
+        />
+        <input
+          type="email"
+          placeholder="Email..."
+          required
+          class="w-[200px] h-[40px] mb-2 border-b-avanti-gold border-b placeholder-avanti-gold placeholder-opacity-40 pr-2 bg-slate-50"
+        />
+        <input
+          type="tel"
+          placeholder="Number..."
+          required
+          class="w-[200px] h-[40px] mb-2 border-b-avanti-gold border-b placeholder-avanti-gold placeholder-opacity-40 pr-2 bg-slate-50"
+        /><br />
+        <div class="w-full inline-flex justify-around items-center my-2">
+          <input
+            type="time"
+            id="time"
+            class="border-b border-b-avanti-gold text-avanti-gold text-sm w-[200px] h-[40px] placeholder-opacity-40 bg-slate-50"
+            min="09:00"
+            max="18:00"
+            value="00:00"
+            required
+          />
+
+          <input
+            type="date"
+            name=""
+            id=""
+            class="w-[200px] h-[40px] bg-slate-50 text-avanti-gold border-b-avanti-gold border-b"
+          />
+
+          <input
+            type="number"
+            placeholder="Guests..."
+            name="guests"
+            id="guests"
+            class="w-[200px] h-[40px] bg-slate-50 border-b-avanti-gold border-b placeholder-avanti-gold placeholder-opacity-40"
+          />
+        </div>
+        <textarea
+          name="messages"
+          id="any_messages"
+          placeholder="Any messages..."
+          class="w-[608px] h-[100px] border border-avanti-gold bg-slate-50 rounded-sm placeholder-avanti-black placeholder-opacity-40 resize-none p-2"
+        ></textarea>
+      </form>
+      <button type="submit" class=""></button>
+    </div>
+  </body>
+</html>

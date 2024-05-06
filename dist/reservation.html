@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avanti Reservation</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+
+  <body class="xl:w-full font-Baskervville text-cstm-xsml">
+    <nav
+      id="nav"
+      class="flex justify-between items-center max-w-full h-[120px] m-5"
+    >
+      <a href="index.html">
+        <img
+          src="Content/Logos/Avanti_Logo.png"
+          alt="Avanti_Logo"
+          class="w-[257px]"
+        />
+      </a>
+      <ul class="inline-flex">
+        <li class="pr-2"><a href="about_us.html">About us |</a></li>
+        <li class="pr-2"><a href="avanti_index_menu.html"> Menu |</a></li>
+        <li class="pr-2"><a href="contact.html"> Contact |</a></li>
+        <li><a href="reservation.html"> Reserve a table</a></li>
+      </ul>
+    </nav>
+
+    <div id="pg_heading" class="m-5 flex items-center justify-center">
+      <h1 class="italic text-cstm-med">Reservation</h1>
+    </div>
+    <section
+      class="grid grid-cols-2 w-full h-[630px] justify-items-center items-center"
+    >
+      <div class="text-center w-[505px] h-fit flex-col jus">
+        <p class="pb-5">
+          All booking will be confirmed using email, if you have not received an
+          email or have any issues with booking, please call
+          <a href="#" class="text-avanti-gold italic">020 8752 1711.</a>
+        </p>
+        <p class="pb-5">
+          Make sure all the details are correct and allow yourself to have
+          plenty of time for travel, to reduce the risk of losing your table.
+        </p>
+        <p>
+          If you have any special dietary requirements, such as allergies,
+          please mention it in the messages, or speak to a member of staff
+          before ordering.
+        </p>
+      </div>
+      <div class="items-center bg-blue-100 w-[494px] h-[470px]">
+        <form
+          action="#"
+          class=""
+          id="form_card"
+          class="max-w-[fit] mx-auto h-fit"
+        >
+          <input
+            type="text"
+            placeholder="Name..."
+            required
+            class="w-[200px] h-[40px] mr-1 mb-2"
+          /><input
+            type="email"
+            placeholder="Email..."
+            required
+            class="w-[200px] h-[40px] mr-1 mb-2"
+          /><input
+            type="tel"
+            placeholder="Number..."
+            required
+            class="w-[200px] h-[40px] mb-2"
+          />
+          <br />
+          <input
+            type="datetime-local"
+            placeholder="Date and Time"
+            required
+            name="date"
+            value="2020-11-16T20:00"
+            class="w-[300px] h-[40px] mr-2 mb-2"
+          /><input
+            type="number"
+            placeholder="Guests..."
+            name="guests"
+            id="guests"
+            class="w-[300px] h-[40px] mb-2"
+          />
+          <textarea
+            name="messages"
+            id="any_messages"
+            placeholder="Any messages..."
+            class="w-[608px] h-[100px]"
+          >
+          </textarea>
+        </form>
+        <button
+          id="reserve_table"
+          type="submit"
+          class="bg-red-200 text-white py-2 px-4 rounded"
+        >
+          Reserve your table
+        </button>
+      </div>
+    </section>
+
+    <footer
+      class="bg-black w-full h-[150px] mt-10 flex justify-between items-center bottom-0 static text-cstm-xsml text-avanti-gold"
+    >
+      <div>
+        <img
+          src="Content/Logos/Avanti_Logo_footer.png"
+          alt="avanti_footer_logo"
+          class="h-[36px]"
+        />
+      </div>
+      <div class="flex flex-row w-[620px] justify-between px-5">
+        <div class="text-center">
+          <h2>Address</h2>
+          <p>
+            328 Uxbridge Rd <br />
+            London W3 9QP
+          </p>
+        </div>
+        <div class="text-center">
+          <p>Mon-Sun</p>
+          <p>10am-3pm | 5pm-11pm</p>
+        </div>
+        <div class="text-center">
+          <p><a href="#">020 8752 1711</a></p>
+          <p><a href="info@avantiacton.com">info@avantiacton.com</a></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
